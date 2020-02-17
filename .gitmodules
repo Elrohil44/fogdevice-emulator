@@ -1,0 +1,6 @@
+[submodule "mraa"]
+	path = mraa
+	url = git@github.com:Elrohil44/mraa.git
+[submodule "upm"]
+	path = upm
+	url = git@github.com:Elrohil44/upm.git
