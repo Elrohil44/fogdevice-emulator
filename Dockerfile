@@ -15,7 +15,7 @@ RUN cd /mraa \
   && cd /upm \
   && mkdir build \
   && cd ./build \
-  && cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr/local -DCMAKE_INSTALL_LIBDIR:PATH=lib -DBUILDSWIGNODE=OFF ./.. \
+  && cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr/local -DCMAKE_INSTALL_LIBDIR:PATH=lib -DBUILDSWIGNODE=OFF -DEMULATE_BME280=ON ./.. \
   && make \
   && make install \
   && cd / \
