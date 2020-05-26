@@ -23,5 +23,5 @@ RUN cd /mraa \
 
 WORKDIR /app
 
-COPY ./lm35.py .
-CMD python -u lm35.py
+COPY main.py .
+CMD python -u main.py
